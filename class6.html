@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-size: 50px;
+        }
+        p{
+            width: 300px;
+            height: 300px;
+            
+            border: 3px solid black;
+        }
+        #id1{
+            position: fixed;
+            color: red;
+            font-size: 50px;
+            top: 150px;
+            bottom: 0px;
+            left: 160px;
+            right: 0px;
+            background-color: yellow;
+        }
+        #id2{
+            position: static;
+            top: 150px;
+            left: 50px;
+            background-color: aqua;
+        }
+        #id3{
+            position: relative;
+            top: 200px;
+            left: 100px;
+            bottom: 50px;
+            background-color: green;
+        }
+        #id4{
+            position: absolute;
+            left: 50px;
+            top: 350px;
+            background-color: rgb(101, 103, 234);
+            
+           
+        }
+        #id5{
+            position: sticky;
+            background-color: pink;
+            left: 220px;
+            bottom: 150px;
+            font-size: 50px;
+        }
+
+    </style>
+</head>
+<body>
+    <p id="id1">Fixed</p>
+    <p id="id2">Static</p>
+    
+    <p id="id4">Absolute</p>
+    <p id="id3">Relative</p>
+    
+    <p id="id5">Sticky</p>
+</body>
+</html>
